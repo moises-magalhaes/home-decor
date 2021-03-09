@@ -1,34 +1,20 @@
-import React from "react";
-import {Nav, Navbar } from "react-bootstrap"
+  import React from "react";
+  import Navbar from "react-bootstrap/Navbar";
+  import Form from "react-bootstrap/Form";
+  import FormControl from "react-bootstrap/FormControl";
 
-// import styled from "styled-components";
+function NavigationBar() {
+    return(
+    <Navbar bg="dark" expand="lg">
+  <Navbar.Brand href="#home">Home Decor</Navbar.Brand>
+  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Collapse id="basic-navbar-nav">
+    
+    <Form inline>
+      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+    </Form>
+  </Navbar.Collapse>
+</Navbar> );
+}
 
-// const Styles = styled.div`
-// .navbar {
-//     background-color: #222;
-// }
-
-// .navbar-brand .navbar-nav .nav-link {
-//     color: #bbb;
-
-//     &hover {
-//         color: white;
-//     }
-// }
-// `;
-
-export const NavigationBar = () => (
-    <>
-        <Navbar expand="lg"> 
-        <Navbar.Brand href="/">Home Decor</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar" />
-            <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="ml-auto">
-                    <Nav.Item><Nav.link href="/">Home</Nav.link></Nav.Item>
-                    <Nav.Item><Nav.link href="/about">About</Nav.link></Nav.Item>
-                    <Nav.Item><Nav.link href="/contact">Contact</Nav.link></Nav.Item>
-                </Nav>
-            </Navbar.Collapse>
-        </Navbar>
-    </>
-)
+export default NavigationBar;
