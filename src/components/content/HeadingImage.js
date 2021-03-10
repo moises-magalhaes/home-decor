@@ -1,13 +1,14 @@
 import React from 'react';
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
+import styles from "./HeadingImage.module.css";
 
 
 
 
 function HeadingImage() {
     return (
-        <Jumbotron>
+        <Jumbotron className={styles.jumbotronContainer}>
             <h1>Hello, world!</h1>
             <p>
                 This is a simple hero unit, a simple jumbotron-style component for calling

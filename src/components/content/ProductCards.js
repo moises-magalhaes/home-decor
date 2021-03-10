@@ -1,14 +1,21 @@
 import React from 'react'
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
+import img2 from "./images/img-02.webp"
+import img3 from "./images/img-03.webp"
+import img4 from "./images/img-04.webp"
+import styles from "./ProductCards.module.css";
+import imageStyles from "./cardImage.module.css";
 
 
 
 function ProductCards() {
     return (
-        <CardGroup>
+        <CardGroup className={styles.ProductCards}>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <div>
+          <Card.Img variant="top" src={img2} alt="chair 1" className={imageStyles.cardImage} />
+          </div>
           <Card.Body>
             <Card.Title>Card title</Card.Title>
             <Card.Text>
@@ -21,7 +28,7 @@ function ProductCards() {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img variant="top"src={img3} alt="chair 2" className={imageStyles.cardImage} />
           <Card.Body>
             <Card.Title>Card title</Card.Title>
             <Card.Text>
@@ -34,7 +41,7 @@ function ProductCards() {
           </Card.Footer>
         </Card>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img variant="top" src={img4} alt="chair 3" className={imageStyles.cardImage} />
           <Card.Body>
             <Card.Title>Card title</Card.Title>
             <Card.Text>
