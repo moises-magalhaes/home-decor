@@ -1,9 +1,9 @@
 import React from 'react'
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
-import img2 from "./images/img-02.webp"
-import img3 from "./images/img-03.webp"
-import img4 from "./images/img-04.webp"
+import img2 from "../../../assets/images/img-02.webp"
+import img3 from "../../../assets/images/img-03.webp"
+import img4 from "../../../assets/images/img-04.webp"
 import styles from "./ProductCards.module.css";
 import imageStyles from "./cardImage.module.css";
 
@@ -23,9 +23,6 @@ function ProductCards() {
               additional content. This content is a little bit longer.
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
         </Card>
         <Card>
           <Card.Img variant="top"src={img3} alt="chair 2" className={imageStyles.cardImage} />
@@ -36,9 +33,6 @@ function ProductCards() {
               content.{' '}
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
         </Card>
         <Card>
           <Card.Img variant="top" src={img4} alt="chair 3" className={imageStyles.cardImage} />
@@ -50,9 +44,6 @@ function ProductCards() {
               show that equal height action.
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
         </Card>
       </CardGroup>
     )

@@ -7,15 +7,15 @@
 function NavigationBar() {
     return(
     <Navbar bg="light" expand="lg" className={styles.navbar}>
-  <Navbar.Brand href="#home">Home Decor</Navbar.Brand>
-  <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  <Navbar.Collapse id="basic-navbar-nav">
-    
-    <Form inline>
-      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-    </Form>
-  </Navbar.Collapse>
-</Navbar> );
+      <Navbar.Brand href="#home">Home Decor</Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        
+        <Form inline>
+          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+        </Form>
+      </Navbar.Collapse>
+    </Navbar> );
 }
 
 export default NavigationBar;
