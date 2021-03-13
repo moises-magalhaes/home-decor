@@ -17,11 +17,11 @@
     img {
        object-position: 0;
        opacity: 0.3;
-     //  z-index: 9;
-    }
-    img:hover {
+       &:hover {
         opacity:0.4;
+        }
     }
+   
     .carousel-item {
         .carousel-caption {
             top:250px;
@@ -30,6 +30,19 @@
    
     }
     
+}
+
+@media (min-width: 576px) {
+    .products{
+        .card-group .card {
+                margin-right: 20px!important;
+                margin-top: 20px;
+                border: none;
+        }
+        .card-text {
+            text-align: center;
+        }
+    }
 }
 
 @media (min-width: 1200px){
