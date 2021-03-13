@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="483" height="274" viewBox="0 0 483 274">
+  <defs>
+    <clipPath id="clip-logo">
+      <rect width="483" height="274"/>
+    </clipPath>
+  </defs>
+  <g id="logo" clip-path="url(#clip-logo)">
+    <text id="DECOR" transform="translate(129 240)" fill="#726738" font-size="68" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">DECOR</tspan></text>
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="448" height="48" rx="7" transform="translate(18 17)" fill="#726738"/>
+    <g id="Group_1" data-name="Group 1">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="261" height="18" transform="translate(113 77)" fill="#fff"/>
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="180" height="18" transform="translate(122 77) rotate(90)" fill="#fff"/>
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="180" height="18" transform="translate(387.5 77) rotate(90)" fill="#fff"/>
+    </g>
+    <text id="HOME" transform="translate(121 170)" fill="#fff" font-size="80" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">HOME</tspan></text>
+  </g>
+</svg>

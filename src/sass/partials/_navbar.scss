@@ -1,0 +1,16 @@
+.navbar {
+    background-color: $colour-dark!important;  
+    .navbar-toggler {
+        border:  none;
+    }
+    .nav-link {
+        color:$colour-primary;
+    }
+    .nav-link:hover{
+        font-weight: 600;
+    }
+}
+
+.logo {
+    width: 4em;
+}

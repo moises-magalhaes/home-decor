@@ -1,0 +1,57 @@
+.jumbotron {
+    background-image: linear-gradient(to bottom, rgba(31, 38, 51, 0.5) 0%, rgba(31, 38, 51, 0.5) 100%), url("../../assets/images/img-01.webp");
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: var(--white);
+}
+
+.carousel {
+    height: 700px;
+    overflow: hidden;
+    background-color: black;
+    margin: 50px 0;
+
+    img {
+       object-position: 0;
+       opacity: 0.3;
+     //  z-index: 9;
+    }
+    img:hover {
+        opacity:0.4;
+    }
+    .carousel-item {
+        .carousel-caption {
+            top:250px;
+            bottom:250px;
+        }
+   
+    }
+    
+}
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+    min-width: 90%;
+    }
+    .carousel {
+        img {
+            object-position: 0 -1000px;
+        }
+        .carousel-item:last-child{
+            .carousel-caption {
+                bottom:470px;
+            }
+        }
+        .carousel-item {
+
+            .carousel-caption {
+                bottom:700px!important;
+                color: $colour-primary;
+            }
+        }
+    }
+}
+

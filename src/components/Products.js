@@ -8,7 +8,7 @@ import Button from "react-bootstrap/Button";
 
 
 
-function ProductCards() {
+function Products() {
     return (
         <CardGroup>
         <Card>
@@ -49,4 +49,4 @@ function ProductCards() {
     )
 }
 
-export default ProductCards
+export default Products

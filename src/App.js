@@ -1,10 +1,13 @@
 import React from "react";
-import "./App.css";
+import "./sass/style.scss";
 import Heading from "./components/Heading";
-import Paragraph from "./components/Paragraph";
 import NavigationBar from "./components/NavigationBar";
 import HeadingImage  from "./components/HeadingImage";
 import ProductCards from "./components/ProductCards";
+import Testemunials from "./components/Testemunials";
+import FooterPage from "./components/Footer";
+import Products from "./components/Products";
+
 
 function App() {
     return (
@@ -13,9 +16,11 @@ function App() {
       <HeadingImage/>
       <div className="container">
           <Heading/>
-          <Paragraph />
           <ProductCards/>
+          <Products/>
+          <Testemunials/>
       </div>
+      <FooterPage/>
         </>
     );
 }
