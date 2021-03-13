@@ -17,8 +17,8 @@ function NavigationBar() {
       <Navbar.Collapse id="basic-navbar-nav">
         
       <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
+      <Nav.Link href="#features">About</Nav.Link>
+      <Nav.Link href="#pricing">Products</Nav.Link>
         <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
         </Form>

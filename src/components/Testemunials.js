@@ -8,6 +8,10 @@ import person03 from "../assets/images/person-03.webp"
 
 function Testemunials() {
     return (
+      <>
+        <div className="testemonials">
+           <h2>Clients testemonials</h2>
+        </div>
         <Carousel>
             <Carousel.Item>
               <img
@@ -45,7 +49,7 @@ function Testemunials() {
               </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
-
+</>
     )
 }
 
