@@ -16,9 +16,9 @@ function NavigationBar() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">About</Nav.Link>
-      <Nav.Link href="#pricing">Products</Nav.Link>
+      <Nav.Link exact to ="/" href="/">Home</Nav.Link>
+      <Nav.Link to ="/About"  href="/About">About</Nav.Link>
+      <Nav.Link to ="/Products"  href="/Products">Products</Nav.Link>
         <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
         </Form>
