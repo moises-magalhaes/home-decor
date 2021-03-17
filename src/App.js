@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, /*Link */} from "react-router-dom";
 import "./sass/style.scss";
 // import Heading from "./components/Heading";
  import NavigationBar from "./components/NavigationBar";
@@ -28,10 +28,13 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/contact">
+          <Route path="/About">
             <About />
           </Route>
-          <Route path="/contact">
+          <Route path="/ProductPage">
+            <Contact />
+          </Route>
+          <Route path="/Contact">
             <Contact />
           </Route>
         </Switch>  
