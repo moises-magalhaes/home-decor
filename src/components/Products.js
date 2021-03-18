@@ -4,11 +4,7 @@ import CardGroup from "react-bootstrap/CardGroup";
 import img2 from "../assets/images/img-02.webp"
 import img3 from "../assets/images/img-03.webp"
 import img4 from "../assets/images/img-04.webp"
-
-
-
-import Button from "react-bootstrap/Button";
-
+import chair from "../assets/images/chair-blur.webp"
 
 
 function Products() {
@@ -26,7 +22,7 @@ function Products() {
             <Card.Text>
                 kr: 2500,00
             </Card.Text>
-          <Button variant="primary">Go to Products</Button>{' '}
+            <a href="/ProductPage" variant="primary" className="btn btn-primary" onclick="goToProducts">Go to products</a>
         </Card>
         <Card>
           <div>
@@ -38,7 +34,7 @@ function Products() {
           <Card.Text>
                 kr: 2500,00
             </Card.Text>
-          <Button variant="primary">Go to Products</Button>{' '}
+            <a href="/ProductPage" variant="primary" className="btn btn-primary" onclick="goToProducts">Go to products</a>
         </Card>
 
         <Card>
@@ -52,7 +48,7 @@ function Products() {
           <Card.Text>
                 kr: 2500,00
             </Card.Text>
-          <Button variant="primary">Go to Products</Button>{' '}
+            <a href="/ProductPage" variant="primary" className="btn btn-primary" onclick="goToProducts">Go to products</a>
         </Card>
         
       </CardGroup>
@@ -68,11 +64,11 @@ function Products() {
           <Card.Text>
                 kr: 2500,00
             </Card.Text>
-          <Button variant="primary">Go to Products</Button>{' '}
+            <a href="/ProductPage" variant="primary" className="btn btn-primary" onclick="goToProducts">Go to products</a>
         </Card>
         <Card>
           <div>
-          <Card.Img variant="top" src={img3} alt="living-room" />
+          <Card.Img variant="top" src={chair} alt="living-room" />
           </div>
           <Card.Body>
             <Card.Title>product 02</Card.Title>
@@ -80,7 +76,7 @@ function Products() {
           <Card.Text>
                 kr: 2500,00
             </Card.Text>
-          <Button variant="primary">Go to Products</Button>{' '}
+            <a href="/ProductPage" variant="primary" className="btn btn-primary" onclick="goToProducts">Go to products</a>
         </Card>
 
         <Card>
@@ -94,7 +90,7 @@ function Products() {
           <Card.Text>
                 kr: 2500,00
             </Card.Text>
-          <Button variant="primary">Go to Products</Button>{' '}
+            <a href="/ProductPage" variant="primary" className="btn btn-primary" onclick="goToProducts">Go to products</a>
         </Card>
 
     

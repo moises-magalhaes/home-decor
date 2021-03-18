@@ -4,11 +4,16 @@
     width: 150px;
     margin-left: auto;
     margin-right: auto;
+    outline: none!important;
 
 
-    
-    &:hover {
-        background-color: $colour-active;
-        
+    &:visited{
+        background-color: $colour-bar;
     }
+    &:hover, &:focus, &:active{
+        background-color: $colour-active!important;  
+        outline:none;
+        border: none;
+    }
+
 }

@@ -1,11 +1,9 @@
 import React from 'react'
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
-import img5 from "../assets/images/img-05.webp"
+import sofa from "../assets/images/sofa-small.webp"
 import img11 from "../assets/images/img-11.webp"
 import img10 from "../assets/images/img-01-changed.webp"
-import Button from "react-bootstrap/Button";
-
 
 
 function ProductCards() {
@@ -13,7 +11,7 @@ function ProductCards() {
         <CardGroup>
         <Card>
           <div>
-          <Card.Img variant="top" src={img5} alt="living-room" />
+          <Card.Img variant="top" src={sofa} alt="living-room" />
           </div>
           <Card.Body>
             <Card.Title>Living Room</Card.Title>
@@ -21,7 +19,7 @@ function ProductCards() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </Card.Text>
           </Card.Body>
-          <Button variant="primary">Go to Products</Button>{' '}
+          <a href="/ProductPage" variant="primary" className="btn btn-primary" onclick="goToProducts">Go to products</a>
         </Card>
 
         <Card>
@@ -32,7 +30,7 @@ function ProductCards() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </Card.Text>
           </Card.Body>
-          <Button variant="primary">Go to Products</Button>{' '}
+          <a href="/ProductPage" variant="primary" className="btn btn-primary" onclick="goToProducts">Go to products</a>
         </Card>
         
         <Card>
@@ -43,7 +41,7 @@ function ProductCards() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </Card.Text>
           </Card.Body>
-          <Button variant="primary">Go to products</Button>{' '}
+          <a href="/ProductPage" variant="primary" className="btn btn-primary" onclick="goToProducts">Go to products</a>
         </Card>
       </CardGroup>
     )

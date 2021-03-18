@@ -3,14 +3,75 @@
     .navbar-toggler {
         border:  none;
     }
-    .nav-link {
-        color:$colour-primary;
+    .navbar-collapse { 
+        .links{
+            a {
+                display: block;
+                color:$colour-primary;
+                padding: 0.5rem 1rem;
+                text-decoration: none;
+                text-align: center;
+                
+                &:hover,   &.active{
+                    font-weight: 600;
+                }
+            
+            }
+        }
+        .btn {
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+        
     }
-    .nav-link:hover{
-        font-weight: 600;
+    .navIcons{
+        margin-left: auto;
+        text-align: end;
+      
+        img {
+            width: 60px;
+            padding-left: 20px;
+        }
+        
+    
     }
 }
 
 .logo {
     width: 4em;
+}
+
+@media (min-width: 576px) {
+
+
+    .navbar-collapse { 
+        form {
+            text-align: center;
+            margin-left: 20%;
+            margin-right: auto;
+        }
+        .btn {
+            margin-left: 0;
+            margin-top: 50px!important;
+        }
+       
+    }
+}
+
+
+@media (min-width: 1200px){
+    .navbar-collapse { 
+        .links{
+            display: flex!important;
+                flex-direction: row;              
+        }
+        form {
+            margin-left: 50px;
+        }
+        .btn {
+            margin-top: 50px !important;
+            margin-bottom: 0;
+        }
+       
+    }
 }

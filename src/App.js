@@ -1,16 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, /*Link */} from "react-router-dom";
 import "./sass/style.scss";
-// import Heading from "./components/Heading";
- import NavigationBar from "./components/NavigationBar";
-// import HeadingImage  from "./components/HeadingImage";
-// import ProductCards from "./components/ProductCards";
-// import Testemunials from "./components/Testemunials";
- import FooterPage from "./components/Footer";
-// import Products from "./components/Products";
+import NavigationBar from "./components/NavigationBar";
+import FooterPage from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import ProductsPage from "./pages/ProductPage";
 
 function App() {
     return (      
@@ -25,16 +21,16 @@ function App() {
           of them to render at a time
         */}
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/" component={Home}>
             <Home />
           </Route>
-          <Route path="/About">
+          <Route path="/About" component={Home}>
             <About />
           </Route>
-          <Route path="/ProductPage">
-            <Contact />
+          <Route path="/ProductPage" component={Home}>
+            <ProductsPage />
           </Route>
-          <Route path="/Contact">
+          <Route path="/Contact" component={Home}>
             <Contact />
           </Route>
         </Switch>  
