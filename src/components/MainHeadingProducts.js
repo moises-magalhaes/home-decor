@@ -1,10 +1,9 @@
 import React from 'react';
 import Jumbotron from "react-bootstrap/Jumbotron";
 import img01 from "../assets/images/sofa2.webp";
-import img02 from "../assets/images/img-08.webp";
-import img03 from "../assets/images/img-07.webp";
-import img04 from "../assets/images/img-01.webp";
-//import JumbotronSlides from "./JumbotronSlides";
+import img02 from "../assets/images/sofa3.jpg";
+import img03 from "../assets/images/sofa4.jpg";
+
 
 function MainHeadingProducts() {
     return (
@@ -16,7 +15,6 @@ function MainHeadingProducts() {
                <div className="wrapper"><img id="1" className="thumb normal" src={img01} alt="1"/></div> 
                <div className="wrapper"><img id="2" className="thumb normal" src={img02} alt="2"/></div>  
                <div className="wrapper"><img id="3" className="thumb normal" src={img03} alt="3"/></div> 
-               <div className="wrapper"><img id="4" className="thumb normal" src={img04} alt="4"/></div> 
             </div>
         </div>
         
