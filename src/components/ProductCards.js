@@ -16,7 +16,7 @@ function ProductCards() {
           <Card.Body>
             <Card.Title>Living Room</Card.Title>
             <Card.Text>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Check our living room products, that will make you feel just at home!
             </Card.Text>
           </Card.Body>
           <a href="/ProductPage" variant="primary" className="btn btn-primary" onclick="goToProducts">Go to products</a>
@@ -27,7 +27,8 @@ function ProductCards() {
           <Card.Body>
             <Card.Title>Bedroom</Card.Title>
             <Card.Text>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Do not miss the cozy feeling that you need 
+              to boost your energies, check rather our bedroom products.
             </Card.Text>
           </Card.Body>
           <a href="/ProductPage" variant="primary" className="btn btn-primary" onclick="goToProducts">Go to products</a>
@@ -38,7 +39,8 @@ function ProductCards() {
           <Card.Body>
             <Card.Title>kitchen</Card.Title>
             <Card.Text>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              We all know that the taste of our food starts with a good taste for a kitchen. 
+              So make your kitchen look taste in your tongue.
             </Card.Text>
           </Card.Body>
           <a href="/ProductPage" variant="primary" className="btn btn-primary" onclick="goToProducts">Go to products</a>

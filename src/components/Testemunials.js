@@ -20,8 +20,9 @@ function Testemunials() {
                       alt="First slide"
               />
               <Carousel.Caption>
-                <h3>Adam Traore</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h3>Adma Traore</h3>
+                <p>I came to them with so much dreams and thoughts,
+                  and they helped me to choose the living room of my dreams.</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -33,7 +34,9 @@ function Testemunials() {
 
               <Carousel.Caption>
                 <h3>Georgina Staples</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>I was looking for some smart products for my kid's bedroom, 
+                  so that he could have a small studies and game area and a nice bedroom in his small place,
+                  then I foud all with them, my boy loves it. Besides, the service is very fast and good.</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -45,7 +48,10 @@ function Testemunials() {
 
               <Carousel.Caption>
                 <h3>Sandra Cloudnine</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <p>I never thought I would spend so much time in my couch, 
+                  but my living room feels so much nicer with the sofa 
+                 and the lights I found in Home Decor.
+                 </p>
               </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
